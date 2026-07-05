@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Harness Manifest",
+  "type": "object",
+  "required": ["version", "template", "workflow", "inputs", "outputs", "theme", "commands", "documentation"],
+  "properties": {
+    "version": { "type": "integer" },
+    "template": { "type": "string" },
+    "description": { "type": "string" },
+    "workflow": { "type": "array" },
+    "inputs": { "type": "object" },
+    "outputs": { "type": "object" },
+    "theme": { "type": "object" },
+    "commands": { "type": "object" },
+    "documentation": { "type": "object" },
+    "skills": { "type": "object" },
+    "blocks": { "type": "object" },
+    "recipes": { "type": "object" }
+  }
+}

@@ -1,0 +1,14 @@
+[data-preset='trustworthy-blue'] {
+  --primary: oklch(0.488 0.243 264.376);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.488 0.243 264.376);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+}
+
+[data-preset='trustworthy-blue'].dark,
+.dark [data-preset='trustworthy-blue'] {
+  --primary: oklch(0.623 0.214 259.815);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.623 0.214 259.815);
+  --sidebar-primary: oklch(0.623 0.214 259.815);
+}

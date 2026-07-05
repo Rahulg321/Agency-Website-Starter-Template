@@ -21,3 +21,5 @@ yarn.lock
 /blob-report/
 /playwright/.cache/
 .tanstack
+brief.json
+brief.applied.json

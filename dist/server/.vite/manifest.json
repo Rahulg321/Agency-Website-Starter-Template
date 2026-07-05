@@ -1,0 +1,270 @@
+{
+  "/Users/rahulgupta/rahul_work/cloudflare-projects/agency-website-starter-template/src/styles/app.css": {
+    "file": "assets/app-BzLpgWko.css",
+    "src": "/Users/rahulgupta/rahul_work/cloudflare-projects/agency-website-starter-template/src/styles/app.css"
+  },
+  "_CTABanner-YOidasyl.js": {
+    "file": "assets/CTABanner-YOidasyl.js",
+    "name": "CTABanner",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js",
+      "_card-ExviwTks.js"
+    ]
+  },
+  "_HeroCentered-B8-riJjS.js": {
+    "file": "assets/HeroCentered-B8-riJjS.js",
+    "name": "HeroCentered",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js"
+    ]
+  },
+  "_TrustBadges-Bli4q31y.js": {
+    "file": "assets/TrustBadges-Bli4q31y.js",
+    "name": "TrustBadges",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js"
+    ]
+  },
+  "_atom-BYRlfX_O.js": {
+    "file": "assets/atom-BYRlfX_O.js",
+    "name": "atom",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_useMatch-CV-OaCK4.js"
+    ]
+  },
+  "_button-lECp910C.js": {
+    "file": "assets/button-lECp910C.js",
+    "name": "button",
+    "imports": [
+      "_react-dom-D3rPRm8N.js"
+    ]
+  },
+  "_card-ExviwTks.js": {
+    "file": "assets/card-ExviwTks.js",
+    "name": "card",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js"
+    ]
+  },
+  "_createBaseUIEventDetails-auGTgIX2.js": {
+    "file": "assets/createBaseUIEventDetails-auGTgIX2.js",
+    "name": "createBaseUIEventDetails",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js"
+    ]
+  },
+  "_createLucideIcon-BxiIRgK4.js": {
+    "file": "assets/createLucideIcon-BxiIRgK4.js",
+    "name": "createLucideIcon",
+    "imports": [
+      "_react-dom-D3rPRm8N.js"
+    ]
+  },
+  "_react-dom-D3rPRm8N.js": {
+    "file": "assets/react-dom-D3rPRm8N.js",
+    "name": "react-dom"
+  },
+  "_separator-MLZU8JxO.js": {
+    "file": "assets/separator-MLZU8JxO.js",
+    "name": "separator",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js",
+      "_createLucideIcon-BxiIRgK4.js"
+    ]
+  },
+  "_services._slug-CNLgBEbF.js": {
+    "file": "assets/services._slug-CNLgBEbF.js",
+    "name": "services._slug",
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_useMatch-CV-OaCK4.js",
+      "_button-lECp910C.js"
+    ],
+    "dynamicImports": [
+      "src/routes/services.$slug.tsx?tsr-split=component"
+    ]
+  },
+  "_useMatch-CV-OaCK4.js": {
+    "file": "assets/useMatch-CV-OaCK4.js",
+    "name": "useMatch",
+    "imports": [
+      "_react-dom-D3rPRm8N.js"
+    ]
+  },
+  "_useOnMount-CIaDzL4s.js": {
+    "file": "assets/useOnMount-CIaDzL4s.js",
+    "name": "useOnMount",
+    "imports": [
+      "_react-dom-D3rPRm8N.js"
+    ]
+  },
+  "node_modules/@fontsource-variable/inter/files/inter-cyrillic-ext-wght-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2",
+    "src": "node_modules/@fontsource-variable/inter/files/inter-cyrillic-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/inter/files/inter-cyrillic-wght-normal.woff2": {
+    "file": "assets/inter-cyrillic-wght-normal-DqGufNeO.woff2",
+    "src": "node_modules/@fontsource-variable/inter/files/inter-cyrillic-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/inter/files/inter-greek-ext-wght-normal.woff2": {
+    "file": "assets/inter-greek-ext-wght-normal-DlzME5K_.woff2",
+    "src": "node_modules/@fontsource-variable/inter/files/inter-greek-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/inter/files/inter-greek-wght-normal.woff2": {
+    "file": "assets/inter-greek-wght-normal-CkhJZR-_.woff2",
+    "src": "node_modules/@fontsource-variable/inter/files/inter-greek-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/inter/files/inter-latin-ext-wght-normal.woff2": {
+    "file": "assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2",
+    "src": "node_modules/@fontsource-variable/inter/files/inter-latin-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2": {
+    "file": "assets/inter-latin-wght-normal-Dx4kXJAl.woff2",
+    "src": "node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/inter/files/inter-vietnamese-wght-normal.woff2": {
+    "file": "assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2",
+    "src": "node_modules/@fontsource-variable/inter/files/inter-vietnamese-wght-normal.woff2"
+  },
+  "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts": {
+    "file": "assets/start-5Z2QO8AU.js",
+    "name": "start",
+    "src": "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+    "isDynamicEntry": true
+  },
+  "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js": {
+    "file": "assets/empty-plugin-adapters-D9UWiqvJ.js",
+    "name": "empty-plugin-adapters",
+    "src": "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js",
+    "isDynamicEntry": true
+  },
+  "src/router.tsx": {
+    "file": "assets/router-BoPj1_1C.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_useMatch-CV-OaCK4.js",
+      "_atom-BYRlfX_O.js",
+      "_button-lECp910C.js",
+      "_services._slug-CNLgBEbF.js",
+      "_separator-MLZU8JxO.js",
+      "_createLucideIcon-BxiIRgK4.js"
+    ],
+    "dynamicImports": [
+      "src/routes/services.tsx?tsr-split=component",
+      "src/routes/contact.tsx?tsr-split=component",
+      "src/routes/about.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2",
+      "assets/inter-cyrillic-wght-normal-DqGufNeO.woff2",
+      "assets/inter-greek-ext-wght-normal-DlzME5K_.woff2",
+      "assets/inter-greek-wght-normal-CkhJZR-_.woff2",
+      "assets/inter-vietnamese-wght-normal-CBcvBZtf.woff2",
+      "assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2",
+      "assets/inter-latin-wght-normal-Dx4kXJAl.woff2",
+      "assets/app-BzLpgWko.css"
+    ]
+  },
+  "src/routes/about.tsx?tsr-split=component": {
+    "file": "assets/about-BjMxIQeR.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js",
+      "_HeroCentered-B8-riJjS.js",
+      "_useOnMount-CIaDzL4s.js",
+      "_card-ExviwTks.js",
+      "_TrustBadges-Bli4q31y.js"
+    ]
+  },
+  "src/routes/contact.tsx?tsr-split=component": {
+    "file": "assets/contact-xxAaeBVm.js",
+    "name": "contact",
+    "src": "src/routes/contact.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js",
+      "_separator-MLZU8JxO.js",
+      "_createLucideIcon-BxiIRgK4.js",
+      "_HeroCentered-B8-riJjS.js",
+      "_createBaseUIEventDetails-auGTgIX2.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/routes-CYrFueMO.js",
+    "name": "routes",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js",
+      "_createLucideIcon-BxiIRgK4.js",
+      "_card-ExviwTks.js",
+      "_CTABanner-YOidasyl.js",
+      "_TrustBadges-Bli4q31y.js"
+    ]
+  },
+  "src/routes/services.$slug.tsx?tsr-split=component": {
+    "file": "assets/services._slug-Do9zmSjr.js",
+    "name": "services._slug",
+    "src": "src/routes/services.$slug.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js",
+      "_services._slug-CNLgBEbF.js"
+    ]
+  },
+  "src/routes/services.tsx?tsr-split=component": {
+    "file": "assets/services-BRMbLnfR.js",
+    "name": "services",
+    "src": "src/routes/services.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_button-lECp910C.js",
+      "_createLucideIcon-BxiIRgK4.js",
+      "_HeroCentered-B8-riJjS.js",
+      "_createBaseUIEventDetails-auGTgIX2.js",
+      "_useOnMount-CIaDzL4s.js",
+      "_CTABanner-YOidasyl.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-FGbf-rfh.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_react-dom-D3rPRm8N.js",
+      "_useMatch-CV-OaCK4.js",
+      "_atom-BYRlfX_O.js"
+    ],
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+      "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js"
+    ]
+  }
+}

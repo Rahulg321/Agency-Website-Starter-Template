@@ -1,0 +1,52 @@
+{
+  "business": {
+    "name": "Summit Plumbing Co.",
+    "industry": "plumber",
+    "phone": "(555) 123-4567",
+    "email": "hello@summitplumbing.example",
+    "address": "123 Main Street, Denver, CO 80202",
+    "hours": "Mon–Fri 7am–6pm · Sat 8am–2pm · 24/7 emergency line",
+    "tagline": "Licensed, insured, and available 24/7 for emergency repairs."
+  },
+  "designPreset": "trustworthy-blue",
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "Services", "href": "/services" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "seo": {
+    "title": "Summit Plumbing Co. | Denver Emergency Plumber",
+    "description": "Licensed Denver plumbers for leaks, drains, water heaters, and 24/7 emergency service.",
+    "keywords": "plumber Denver, emergency plumber, drain cleaning"
+  },
+  "services": [
+    {
+      "slug": "emergency-plumbing",
+      "title": "Emergency plumbing",
+      "description": "Burst pipes, major leaks, and backups handled fast — day or night."
+    },
+    {
+      "slug": "drain-cleaning",
+      "title": "Drain cleaning",
+      "description": "Clear slow or clogged drains with professional equipment."
+    }
+  ],
+  "reviews": [
+    {
+      "quote": "They arrived within an hour and fixed our burst pipe.",
+      "author": "Maria L.",
+      "rating": 5
+    }
+  ],
+  "ctas": {
+    "primary": { "label": "Get a free quote", "href": "/contact" },
+    "secondary": { "label": "Call now", "href": "tel:+15551234567" }
+  },
+  "pages": [
+    { "slug": "/", "title": "Home", "recipe": "home-local-service" },
+    { "slug": "/services", "title": "Services", "recipe": "services-page" },
+    { "slug": "/about", "title": "About", "recipe": "about-page" },
+    { "slug": "/contact", "title": "Contact", "recipe": "contact-page" }
+  ]
+}

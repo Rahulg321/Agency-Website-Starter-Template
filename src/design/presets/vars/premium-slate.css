@@ -1,0 +1,15 @@
+[data-preset='premium-slate'] {
+  --primary: oklch(0.372 0.044 257.287);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.372 0.044 257.287);
+  --sidebar-primary: oklch(0.372 0.044 257.287);
+  --radius: 0.375rem;
+}
+
+[data-preset='premium-slate'].dark,
+.dark [data-preset='premium-slate'] {
+  --primary: oklch(0.704 0.04 256.788);
+  --primary-foreground: oklch(0.145 0 0);
+  --ring: oklch(0.704 0.04 256.788);
+  --sidebar-primary: oklch(0.704 0.04 256.788);
+}

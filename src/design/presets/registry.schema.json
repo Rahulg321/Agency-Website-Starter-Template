@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Design Preset Registry",
+  "type": "object",
+  "required": ["version", "defaultPreset", "presets"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "defaultPreset": { "type": "string" },
+    "presets": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/preset" },
+      "minItems": 1
+    }
+  },
+  "definitions": {
+    "preset": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "description",
+        "industries",
+        "source",
+        "coverage",
+        "cssFile",
+        "font",
+        "shadcnCode"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "industries": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "source": { "enum": ["builtin", "tweakcn"] },
+        "coverage": { "enum": ["accent", "full"] },
+        "cssFile": { "type": "string", "pattern": "^.+\\.css$" },
+        "font": { "type": "string" },
+        "shadcnCode": { "type": "string" },
+        "tweakcnThemeId": { "type": "string" },
+        "registryCommand": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

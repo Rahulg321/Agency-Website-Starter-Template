@@ -1,0 +1,14 @@
+[data-preset='energetic-red'] {
+  --primary: oklch(0.577 0.245 27.325);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.577 0.245 27.325);
+  --sidebar-primary: oklch(0.577 0.245 27.325);
+}
+
+[data-preset='energetic-red'].dark,
+.dark [data-preset='energetic-red'] {
+  --primary: oklch(0.704 0.191 22.216);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.704 0.191 22.216);
+  --sidebar-primary: oklch(0.704 0.191 22.216);
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "./harness.manifest.schema.json",
+  "version": 1,
+  "template": "agency-website-starter-template",
+  "description": "Machine-readable index for AI harness — theme selection, brief application, and build/deploy.",
+  "workflow": [
+    { "step": 1, "action": "write-brief", "input": "brief.json", "template": "brief.example.json" },
+    { "step": 2, "action": "apply-brief", "command": "bun run apply-brief" },
+    { "step": 3, "action": "verify-theme", "read": "brief.applied.json", "field": "resolvedPreset" },
+    { "step": 4, "action": "build", "command": "bun run build" },
+    { "step": 5, "action": "deploy", "command": "bun run deploy" }
+  ],
+  "inputs": {
+    "brief": {
+      "path": "brief.json",
+      "example": "brief.example.json",
+      "schema": "src/lib/brief.ts",
+      "description": "Client website brief — harness writes this"
+    }
+  },
+  "outputs": {
+    "appliedReport": {
+      "path": "brief.applied.json",
+      "description": "Theme resolution report after apply-brief",
+      "fields": [
+        "resolvedPreset",
+        "resolutionSource",
+        "presetLabel",
+        "presetCoverage",
+        "htmlDataPreset"
+      ]
+    },
+    "siteConfig": {
+      "path": "src/config/site.config.ts",
+      "description": "Auto-generated site config — do not edit manually"
+    }
+  },
+  "theme": {
+    "registry": "src/design/presets/registry.json",
+    "registrySchema": "src/design/presets/registry.schema.json",
+    "cssBundle": "src/design/presets/vars/index.css",
+    "cssDir": "src/design/presets/vars/",
+    "htmlAttribute": "data-preset",
+    "htmlSetBy": "src/routes/__root.tsx",
+    "resolution": {
+      "api": "src/lib/apply-brief.ts",
+      "functions": ["resolveDesignPreset", "applyBriefToSiteConfig", "createAppliedBriefReport"],
+      "priority": ["brief.designPreset", "business.industry", "registry.defaultPreset"]
+    },
+    "import": {
+      "command": "bun run theme:import <tweakcn-id>",
+      "script": "scripts/tweakcn-theme-to-preset.mjs",
+      "docs": "docs/TWEAKCN_THEMES.md"
+    }
+  },
+  "commands": {
+    "apply-brief": { "script": "scripts/apply-brief.mjs", "npm": "bun run apply-brief" },
+    "theme-import": { "script": "scripts/tweakcn-theme-to-preset.mjs", "npm": "bun run theme:import" },
+    "presets-sync": { "script": "scripts/sync-preset-registry.mjs", "npm": "bun run presets:sync" },
+    "build": { "npm": "bun run build", "prebuild": "apply-brief --if-present" },
+    "deploy": { "npm": "bun run deploy" }
+  },
+  "documentation": {
+    "agents": "AGENTS.md",
+    "harness": "docs/HARNESS.md",
+    "tweakcn": "docs/TWEAKCN_THEMES.md",
+    "readme": "README.md"
+  },
+  "skills": {
+    "websiteGeneration": ".agents/skills/template/website-generation.md",
+    "designPresets": ".agents/skills/design-presets/SKILL.md",
+    "industries": ".agents/skills/industries/"
+  },
+  "blocks": {
+    "dir": "src/components/blocks/",
+    "catalog": "src/components/blocks/README.md"
+  },
+  "recipes": {
+    "dir": "src/recipes/"
+  }
+}

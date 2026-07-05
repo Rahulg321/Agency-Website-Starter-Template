@@ -1,0 +1,15 @@
+[data-preset='clinical-clean'] {
+  --primary: oklch(0.446 0.03 256.802);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.446 0.03 256.802);
+  --sidebar-primary: oklch(0.446 0.03 256.802);
+  --background: oklch(0.995 0.002 247.839);
+}
+
+[data-preset='clinical-clean'].dark,
+.dark [data-preset='clinical-clean'] {
+  --primary: oklch(0.708 0.04 256.802);
+  --primary-foreground: oklch(0.145 0 0);
+  --ring: oklch(0.708 0.04 256.802);
+  --sidebar-primary: oklch(0.708 0.04 256.802);
+}

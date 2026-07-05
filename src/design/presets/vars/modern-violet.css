@@ -1,0 +1,14 @@
+[data-preset='modern-violet'] {
+  --primary: oklch(0.541 0.281 293.009);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.541 0.281 293.009);
+  --sidebar-primary: oklch(0.541 0.281 293.009);
+}
+
+[data-preset='modern-violet'].dark,
+.dark [data-preset='modern-violet'] {
+  --primary: oklch(0.702 0.183 293.541);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.702 0.183 293.541);
+  --sidebar-primary: oklch(0.702 0.183 293.541);
+}

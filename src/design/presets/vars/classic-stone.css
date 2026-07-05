@@ -1,0 +1,14 @@
+[data-preset='classic-stone'] {
+  --primary: oklch(0.444 0.011 73.639);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.444 0.011 73.639);
+  --sidebar-primary: oklch(0.444 0.011 73.639);
+}
+
+[data-preset='classic-stone'].dark,
+.dark [data-preset='classic-stone'] {
+  --primary: oklch(0.709 0.01 56.259);
+  --primary-foreground: oklch(0.145 0 0);
+  --ring: oklch(0.709 0.01 56.259);
+  --sidebar-primary: oklch(0.709 0.01 56.259);
+}

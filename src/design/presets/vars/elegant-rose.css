@@ -1,0 +1,14 @@
+[data-preset='elegant-rose'] {
+  --primary: oklch(0.586 0.253 17.585);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.586 0.253 17.585);
+  --sidebar-primary: oklch(0.586 0.253 17.585);
+}
+
+[data-preset='elegant-rose'].dark,
+.dark [data-preset='elegant-rose'] {
+  --primary: oklch(0.645 0.246 16.439);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.645 0.246 16.439);
+  --sidebar-primary: oklch(0.645 0.246 16.439);
+}

@@ -1,0 +1,1 @@
+import{O as e,k as t}from"./index-CKM1VI9c.js";var n=t(e(),1),r=[];function i(e){n.useEffect(e,r)}export{i as t};

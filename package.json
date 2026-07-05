@@ -1,22 +1,28 @@
 {
-  "name": "tanstack-start-example-basic",
+  "name": "agency-website-starter-template",
   "private": true,
   "sideEffects": false,
   "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && tsc --noEmit",
+    "prebuild": "node scripts/apply-brief.mjs --if-present",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "apply-brief": "node scripts/apply-brief.mjs",
+    "theme:import": "node scripts/tweakcn-theme-to-preset.mjs",
+    "presets:sync": "node scripts/sync-preset-registry.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
     "@fontsource-variable/inter": "^5.2.8",
     "@shadcn/react": "^0.2.0",
+    "@tanstack/react-form": "^1.33.0",
     "@tanstack/react-router": "^1.170.17",
     "@tanstack/react-router-devtools": "^1.167.0",
     "@tanstack/react-start": "^1.168.27",
+    "@tanstack/zod-form-adapter": "^0.42.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",

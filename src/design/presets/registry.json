@@ -1,0 +1,143 @@
+{
+  "$schema": "./registry.schema.json",
+  "version": 1,
+  "defaultPreset": "trustworthy-blue",
+  "presets": [
+    {
+      "id": "trustworthy-blue",
+      "label": "Trustworthy Blue",
+      "description": "Professional blue palette for trades and home services.",
+      "industries": ["plumber", "hvac", "electrician"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "trustworthy-blue.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "forest-green",
+      "label": "Forest Green",
+      "description": "Natural green tones for landscaping and eco services.",
+      "industries": ["landscaping", "lawn-care", "eco-services"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "forest-green.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "clinical-clean",
+      "label": "Clinical Clean",
+      "description": "Calm neutrals for medical and dental practices.",
+      "industries": ["dentist", "medical", "clinic"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "clinical-clean.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "premium-slate",
+      "label": "Premium Slate",
+      "description": "Refined slate palette for law, finance, and insurance.",
+      "industries": ["lawyer", "finance", "insurance"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "premium-slate.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "warm-amber",
+      "label": "Warm Amber",
+      "description": "Inviting warm tones for restaurants and salons.",
+      "industries": ["restaurant", "salon", "bakery"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "warm-amber.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "bold-orange",
+      "label": "Bold Orange",
+      "description": "High-energy orange for construction and roofing.",
+      "industries": ["roofing", "construction", "contractor"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "bold-orange.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "elegant-rose",
+      "label": "Elegant Rose",
+      "description": "Soft rose accents for spa and beauty brands.",
+      "industries": ["spa", "beauty", "wellness"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "elegant-rose.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "modern-violet",
+      "label": "Modern Violet",
+      "description": "Creative violet palette for agencies and studios.",
+      "industries": ["creative", "marketing", "agency"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "modern-violet.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "classic-stone",
+      "label": "Classic Stone",
+      "description": "Understated stone neutrals for real estate.",
+      "industries": ["real-estate", "property"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "classic-stone.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "energetic-red",
+      "label": "Energetic Red",
+      "description": "Urgent red palette for emergency and towing services.",
+      "industries": ["emergency", "towing", "restoration"],
+      "source": "builtin",
+      "coverage": "accent",
+      "cssFile": "energetic-red.css",
+      "font": "inter",
+      "shadcnCode": "b0"
+    },
+    {
+      "id": "tweakcn-nature",
+      "label": "Nature (tweakcn)",
+      "description": "Sage-green nature palette from tweakcn registry.",
+      "industries": ["landscaping", "gardening", "eco-services", "wellness"],
+      "source": "tweakcn",
+      "coverage": "full",
+      "cssFile": "tweakcn-nature.css",
+      "font": "montserrat",
+      "shadcnCode": "b0",
+      "tweakcnThemeId": "nature",
+      "registryCommand": "bunx shadcn add @tweakcn/nature -y"
+    },
+    {
+      "id": "tweakcn-ocean-breeze",
+      "label": "Ocean Breeze (tweakcn)",
+      "description": "Cool coastal blues from tweakcn registry.",
+      "industries": ["marine", "pool", "coastal", "spa"],
+      "source": "tweakcn",
+      "coverage": "full",
+      "cssFile": "tweakcn-ocean-breeze.css",
+      "font": "inter",
+      "shadcnCode": "b0",
+      "tweakcnThemeId": "ocean-breeze",
+      "registryCommand": "bunx shadcn add @tweakcn/ocean-breeze -y"
+    }
+  ]
+}
